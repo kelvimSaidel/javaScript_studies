@@ -1,0 +1,46 @@
+body {
+    background-color:  rgb(41, 149, 41);
+}
+
+#Div1 {
+    background-color: rgb(30, 29, 29);
+    height: 10cm;
+    width: 10cm;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+    display: block;  
+    text-align: center;
+
+}
+
+#submit {
+    color: white;
+    height: 1cm;
+    width: 4cm;
+    background-color: red;
+    border-color: red;
+    margin-top: 10%;
+    font-size: larger;
+    border-style: solid;
+}
+
+.text {
+    color : white;
+    
+}
+
+.input {
+        height: 1cm;
+        width: 8cm;
+
+} 
+
+.radio ~ label {
+    color:white;
+
+
+} 
+

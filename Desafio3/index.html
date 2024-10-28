@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 3</title>
+    <link rel="stylesheet"  href="style.css">
+</head>
+<body>
+  <Div id="Div1"> 
+        <h1 class="text">Simple Calculator</h1>
+        <input id="input1" class="input" type="number" placeholder="Digite um número" >
+        <input id="input2" class="input" type="number" placeholder="Digite um número" >
+        <h2></h2>
+        <input class="radio"  id="somar" name="operacoesAritmeticas" type="radio" value="+" >
+        <label  for="somar">somar</label>
+        <input class="radio" id="diminuir" name="operacoesAritmeticas" type="radio" value="-">
+        <label for="diminuir">subtrair</label>
+        <input class="radio" id="multiplicar" name="operacoesAritmeticas" type="radio" value="*">
+        <label for="multiplicar">multiplicar</label>
+        <input class="radio" id="dividir" name="operacoesAritmeticas" type="radio" value="/">
+        <label for="dividir">dividir</label>
+        <h2 class="text">The result is: <span id="result"></span></h2>
+        <button id="submit" class="radio" id="calcular"  type="button" onclick="executeJs()"><b>Calcular</b></button>
+    </Div>
+    <script src="index.js">
+        executeJs()
+    </script>
+</body>
+</html>

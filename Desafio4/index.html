@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 3</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div id="principal"> 
+         <h1 id="p1" >Tip calculator</h1>
+         <div id="secundaria"> 
+            <label id="billabel" for="bill">Bill</label>
+            <input  id="bill" type="number" oninput="zerarTip()"  onchange="zerarTip()" placeholder="Your bill"></input>
+            <br></br>
+            <div id="secundaria-1">
+                <label id="tiplabel" for="tip">Select tip</label>
+                <span id="tippercent"></span>
+            </div>
+            <input id="tip" type="range" value="0" min="0" max="100"
+            oninput="calculateBill()" onchange="calculateBill()"> 
+            <h2 id="limite">________________________</h2>
+            <h3 id="total">Total: <span id="totalfield"></span></h2>
+         </div>
+         
+         <div id="terciaria"> 
+             <label id="splitlabel" for="split">Split</label>
+             <span id="persons"></span>
+             <input id="split" type="range"value="0" min="0" max="100"
+             oninput="splitBill()"  onchange="splitBill()">
+             <h3 id="billeach">Bill each <span id="totalbilleach"></span> </h3> 
+         </div>
+    </div>
+    <script src="index.js">
+    </script>
+</body>
+</html>

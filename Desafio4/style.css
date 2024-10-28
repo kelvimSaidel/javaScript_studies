@@ -1,0 +1,167 @@
+body {
+    background-color: white;
+}
+
+#principal {
+    background-color: rgb(140, 237, 226);
+    height: 12cm;
+    width: 10cm;
+    border-style: none;
+    border-radius: 7%;
+    text-align: center;
+    position: absolute; 
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+#secundaria {
+    background: white;
+    height: 5cm;
+    width: 8cm;
+    position: absolute; 
+    border-radius: 7%;
+    border-top-style: groove;
+    border-top-color: lightgray;
+    border-top-width: thin;
+    display: block;
+    text-align: right;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+#terciaria {
+    background: white;
+    height: 3cm;
+    width: 8cm;
+    position: absolute; 
+    border-radius: 5%;
+    border-top-style: groove;
+    border-color: lightgray;
+    border-top-width:thin;
+
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+
+#secundaria-1{
+    display:inline-block;
+    width: 8cm;
+    position:relative;
+}
+
+
+#p1 {
+  font-weight: bold;
+  font-size: 150%;
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#bill {
+    width: 5cm;
+    height: 0.5cm;
+    margin-top: 3%;
+    margin-right: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(230, 228, 228);
+    
+}
+
+
+#billabel {
+    font-family: Arial, Helvetica, sans-serif;
+    color:darkgray;
+    margin-right: 20%;
+
+}
+
+#tip {
+    width: 7.9cm;
+    margin-top: 1%;
+
+}
+
+#tiplabel {
+    font-family: Arial, Helvetica, sans-serif;
+    color:darkgray;
+    text-align: center;
+    margin-right: 79%;
+    margin-left: 0%;    
+    font-size: small;
+    display:inline-block;
+
+}
+
+#tippercent {
+    margin-right:2%;
+    color:darkgray;
+    font-size: small;
+    display:inline-block;
+    width: 1cm;
+   
+}
+
+#limite {
+    text-align: center;
+    margin-top: 1%;
+    color: darkgray;
+}
+
+#total {
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: start;
+    margin-top: 0%;
+    margin-left: 15%;
+}
+
+#splitlabel {
+    font-size: medium;
+    margin-right: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkgray;
+     
+}
+
+#persons{
+    color: darkgrey;
+    size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#split{
+   width: 7.9cm;
+   height: 0.5cm;
+   margin-top: 10%;
+   margin-right: 30%;
+}
+
+#billeach {
+    margin-right: 80%;
+    font-size: medium;
+    color: darkgray;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 7.9cm;
+    float: left;
+ 
+}
+
+#totalbilleach{
+    margin-right: 70%;
+    float: right
+ 
+  
+} 
+
