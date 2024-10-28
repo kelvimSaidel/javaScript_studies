@@ -226,10 +226,10 @@ let num2 = 3
 // let listaNumeros = [1,2,3]
 // console.log("sem funcao");
 // console.log(listaNumeros);
-// listaNumeros.push(4,5,6)
-// console.log("push");
+// listaNumeros.push(4,5,6) 
+// console.log("push"); //adiciona elemento no final da fila
 // console.log(listaNumeros);
-// listaNumeros.unshift(-2,-1,0)
+// listaNumeros.unshift(-2,-1,0) // adicionar o elemento no começo da fila
 // console.log("unshift");
 // console.log(listaNumeros);
 // listaNumeros.splice(0,0,-3,-4,-5);
@@ -260,9 +260,10 @@ let num2 = 3
 
 
 // let listaNumeros = [1,2,3,4,5,6]
-// listaNumeros2 = listaNumeros.pop()
-// listaNumeros3 = listaNumeros.shift()
-// listaNumeros4 = listaNumeros.splice(0,1)
+// listaNumeros2 = listaNumeros.pop() //remove e retorna o ultimo elemento do array
+// listaNumeros3 = listaNumeros.shift() //remove o primeiro elemento da lista e retorna ele
+// listaNumeros4 = listaNumeros.splice(0,1) //adiciona a partir do index(a), 
+//excluindo tanto de valor depois desse index(b), o valor x (c), splice(a,b,c)
 
 
 // console.log(listaNumeros)
@@ -271,7 +272,7 @@ let num2 = 3
 // console.log(listaNumeros4)
 
 
-let listaNumeros = [1,2,3,4,5,6]
+// let listaNumeros = [1,2,3,4,5,6]
 
 // listaNumeros = [];
 // listaNumeros.length = 0;
@@ -359,17 +360,54 @@ let listaNumeros = [1,2,3,4,5,6]
 // console.log(somar2(5,45,50,60))
 
 
-function calculoPorcentagem(a,b) {
-         return a*b;
-}
+// function calculoPorcentagem(a,b) {
+//          return a*b;
+// }
 
-console.log(calculoPorcentagem(5,2));
+// console.log(calculoPorcentagem(5,2));
 
-function calculoPorcentagem(a,b=10.00) {
-    return a*b;
-}
+// function calculoPorcentagem(a,b=10.00) {
+//     return a*b;
+// }
 
-console.log(calculoPorcentagem(5))
+// console.log(calculoPorcentagem(5))
 
 // const teste = document.querySelector("body")
 // teste.setAttribute("style","background-color:Red")
+
+// Math.floor() ==para arredondar menos 
+// onload para adicionar no botão sempre que quiser atualizar sempre que recarregar a pagina
+// window.location.reload() = para criar uma funcao para recarregar a pagina
+//  document.getElementById('inputBox').setAttribute('Readonly', 'Readonly')  para tornar um campo não editavel
+
+//css clue
+//    border: 2px solid lightgray = é possivel colocar tamanho, tipo e cor tudo em uma linha só
+//      margin: 2rem 0 = margem dos elementos de um para outro
+//  padding = preenchimento de um elemento, como se fosse a margem de um elemento
+//  background= transparent; para deixar cinza 
+// @media (min-width: 800px) =  é para alterar algum atributo do aplicação
+// quando a tela muda de formato mais proxima ou mais longe por exemplo, serve 
+// para adaptar a diferentes dispositivos
+// display: flex; =sever para colar um item do lado do outro
+//justify-content: space-between;= serve para separar os itens e deixar um espaço entre eles
+//align-items: center; = serve para alinhar os dados no centro
+// section tag para semantica para relacionar elementos que estão no mesmo contexto
+//  cursor: pointer = muda o cursos quando ele passa em um botão
+//    border-radius: 2rem 2rem 2rem 2rem; = da para especificar a largura de cada parte separadamente e 
+// tudo em uma linha só outro exemplo border-width: 8px 8px 8px 8px;
+//var(--red)= parece uma função para setar um valor dentro de um properties não sei 
+// definir isso ao certo
+// ::after,::before = serve para substituir e personalizar alguma tag https://developer.mozilla.org/en-US/play
+//letter-spacing:= espaços entre as letras
+//  transition: var(--transition); adicionar um efeito legar ao carregar o botao
+// .btn-hero:hover { color: var(--clr-white); background: var(--clr-black);} =
+// a subclasse hover faz mudar a cor do fundo e da legenda quando o usuario interagem com o botao
+// tag main = serve para fazer um grupo de campos executar um mesmo comando com onchange por exemplo
+//max-with ou min-with = é uma propriedade para que aplicação não deforme conforme você aumenta a tela
+//flex campo para definir um tamanho maximo que o campo pode alcançar
+//align-self= alinhar na vertical
+// box-shadow: = colocar sombra na borda
+// .range::-webkit-slider-thumb = os dois pontos é igual a extensão de um atributo.
+//por exemplo no range você usa o range para alterar o range, mas para alterar a bolinha do range
+// você usa os range + ::
+//<hr /> criado linha horizontal para separar conteudo

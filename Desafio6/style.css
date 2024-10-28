@@ -1,0 +1,54 @@
+#div1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    width: 9.5cm;
+    height: 9.5cm;
+    text-align: center;
+    border-color: rgb(93, 134, 230);
+    border-style:solid;
+    border-radius: 2%;
+}
+
+#Gn {
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+#Yg {
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+#Na {
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+}
+
+
+#Ygs {
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    
+}
+
+#Ygn {
+    width: 4cm;
+    height: 22px;
+    text-align: center;
+}
+
+#Ng {
+    width:4cm ;
+    height: 40px;
+    background-color: rgb(45, 45, 253);
+    border-style: none;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}

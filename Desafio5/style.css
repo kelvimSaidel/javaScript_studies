@@ -1,0 +1,19 @@
+#title {
+    text-align: center;
+    font-size: 1cm;
+    color:white;
+    mix-blend-mode:exclusion;
+}
+
+#div1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#subtitle {
+     background-color: black;
+     color: white;
+
+}
